@@ -25,7 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:drawableLeft="@drawable/user"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/first_name"
@@ -46,7 +46,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:drawableLeft="@drawable/user"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/last_name"
@@ -67,7 +67,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:drawableLeft="@drawable/email"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/email"
@@ -88,7 +88,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:drawableLeft="@drawable/phone"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/mobileNumber"
@@ -109,7 +109,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:drawableLeft="@drawable/password"
+            android:drawableLeft="@drawable/ic_baseline_lock_open_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/passowrd"
@@ -122,10 +122,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1px"
-        android:background="@color/white_greyish" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -136,7 +133,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:drawableLeft="@drawable/confirm_password"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="@string/confirmPassword"
@@ -153,7 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingHorizontal="95dp">
+        android:gravity="center_horizontal">
 
         <RadioButton
             android:layout_width="wrap_content"
